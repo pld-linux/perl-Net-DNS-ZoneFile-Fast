@@ -6,7 +6,7 @@
 %define	pdir	Net
 %define	pnam	DNS-ZoneFile-Fast
 Summary:	Net::DNS::ZoneFile::Fast - parse BIND8/9 zone files
-Summary(pl):	Net::DNS::ZoneFile::Fast - analiza plików stref BIND-a 8/9
+Summary(pl.UTF-8):   Net::DNS::ZoneFile::Fast - analiza plikÃ³w stref BIND-a 8/9
 Name:		perl-Net-DNS-ZoneFile-Fast
 Version:	0.5
 Release:	1
@@ -34,18 +34,18 @@ possible, so it is interesting to use this module to parse huge zones.
 As an example datapoint, it takes less than 5 seconds to parse a 2.2
 MB zone with about 72000 records on an Athlon XP 2600+ box.
 
-%description -l pl
-Modu³ Net::DNS::ZoneFile::Fast daje mo¿liwo¶æ szybkiego przetwarzania
-plików w formacie u¿ywanym przez BIND-a 8 i 9. Aktualnie modu³
-udostêpnia jedn± funkcjê - parse(), zwracaj±c± referencjê do tablicy
-tradycyjnych obiektów Net::DNS::RR, dziêki czemu nie trzeba uczyæ siê
-nowego API, aby obrabiaæ rekordy stref.
+%description -l pl.UTF-8
+ModuÅ‚ Net::DNS::ZoneFile::Fast daje moÅ¼liwoÅ›Ä‡ szybkiego przetwarzania
+plikÃ³w w formacie uÅ¼ywanym przez BIND-a 8 i 9. Aktualnie moduÅ‚
+udostÄ™pnia jednÄ… funkcjÄ™ - parse(), zwracajÄ…cÄ… referencjÄ™ do tablicy
+tradycyjnych obiektÃ³w Net::DNS::RR, dziÄ™ki czemu nie trzeba uczyÄ‡ siÄ™
+nowego API, aby obrabiaÄ‡ rekordy stref.
 
-Du¿y nacisk zosta³ po³o¿ony na jak najwiêksz± szybko¶æ wykonywania
-parse(), wiêc szczególnie interesuj±ce jest u¿ywanie tego modu³u do
-przetwarzania du¿ych stref. Jako przyk³adowe dane mo¿na podaæ, ¿e
-przetworzenie strefy o rozmiarze 2.2 MB, zawieraj±cej oko³o 72000
-rekordów na Athlonie XP 2600+ zajê³o poni¿ej 5 sekund.
+DuÅ¼y nacisk zostaÅ‚ poÅ‚oÅ¼ony na jak najwiÄ™kszÄ… szybkoÅ›Ä‡ wykonywania
+parse(), wiÄ™c szczegÃ³lnie interesujÄ…ce jest uÅ¼ywanie tego moduÅ‚u do
+przetwarzania duÅ¼ych stref. Jako przykÅ‚adowe dane moÅ¼na podaÄ‡, Å¼e
+przetworzenie strefy o rozmiarze 2.2 MB, zawierajÄ…cej okoÅ‚o 72000
+rekordÃ³w na Athlonie XP 2600+ zajÄ™Å‚o poniÅ¼ej 5 sekund.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
