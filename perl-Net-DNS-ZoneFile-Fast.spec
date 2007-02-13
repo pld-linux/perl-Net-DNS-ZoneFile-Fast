@@ -6,7 +6,7 @@
 %define	pdir	Net
 %define	pnam	DNS-ZoneFile-Fast
 Summary:	Net::DNS::ZoneFile::Fast - parse BIND8/9 zone files
-Summary(pl.UTF-8):   Net::DNS::ZoneFile::Fast - analiza plików stref BIND-a 8/9
+Summary(pl.UTF-8):	Net::DNS::ZoneFile::Fast - analiza plików stref BIND-a 8/9
 Name:		perl-Net-DNS-ZoneFile-Fast
 Version:	0.5
 Release:	1
