@@ -9,7 +9,7 @@ Summary:	Net::DNS::ZoneFile::Fast - parse BIND8/9 zone files
 Summary(pl.UTF-8):	Net::DNS::ZoneFile::Fast - analiza plików stref BIND-a 8/9
 Name:		perl-Net-DNS-ZoneFile-Fast
 Version:	0.5
-Release:	1
+Release:	2
 License:	Beer-ware, distributable
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -69,5 +69,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/Net/DNS/ZoneFile
 %{perl_vendorlib}/Net/DNS/ZoneFile/*.pm
 %{_mandir}/man3/*
