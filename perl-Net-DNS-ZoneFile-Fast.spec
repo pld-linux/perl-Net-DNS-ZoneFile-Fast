@@ -12,8 +12,9 @@ Version:	0.5
 Release:	2
 License:	Beer-ware, distributable
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	bf5071c30f2605e60bd5c519aa27920f
+URL:		http://search.cpan.org/dist/Net-DNS-ZoneFile-Fast/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
