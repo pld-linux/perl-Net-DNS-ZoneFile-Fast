@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	DNS-ZoneFile-Fast
 Summary:	Net::DNS::ZoneFile::Fast - parse BIND8/9 zone files
